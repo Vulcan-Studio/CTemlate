@@ -1,0 +1,6 @@
+name: CTemplate
+version: '1.0'
+main: net.coma112.CTemplate
+api-version: '1.21'
+authors: [ Coma112 & B3rcyy ]
+description: A template plugin.

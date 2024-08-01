@@ -1,0 +1,36 @@
+language: "en"
+database:
+  type: "sqlite"
+  mysql:
+    host: localhost
+    port: 3306
+    database: template
+    username: root
+    password: ""
+    ssl: false
+    certificateverification: false
+    poolsize: 10
+    lifetime: 1800000
+
+test-item:
+  material: "STICK"
+  amount: 2
+  name: "&cTest Stick"
+  lore:
+    - ""
+    - "HOMIXIDE GANG"
+
+menu:
+  title: "&6&lCTemplate menu"
+  size: 54
+  update-tick: 2
+  back-item:
+    amount: 1
+    material: "RED_STAINED_GLASS"
+    name: "&cBack"
+    slot: 45
+  forward-item:
+    amount: 1
+    material: "GREEN_STAINED_GLASS"
+    name: "&aForward"
+    slot: 53

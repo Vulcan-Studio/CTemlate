@@ -1,0 +1,7 @@
+message:
+  test: "Test Message!"
+  help:
+    - "Help Message 1"
+    - "Help Message 2"
+  last-page: "This is the last page"
+  first-page: "This is the first page"
